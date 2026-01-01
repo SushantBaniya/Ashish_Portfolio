@@ -270,9 +270,9 @@ export const content = {
         link: "https://wa.me/919802347095",
       },
       {
-        text: "ashish.avl.tech",
+        text: "ashish.lamkade",
         icon: BsInstagram,
-        link: "https://www.instagram.com/ashish.avl.tech/",
+        link: "https://www.instagram.com/ashish.lamkade?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
       },
     ],
   },
