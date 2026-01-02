@@ -92,11 +92,11 @@ const SkillDetail = () => {
 
                     {/* Key Points */}
                     <h3 className="text-xl font-bold text-white mb-4 font-Poppins">Key Competencies</h3>
-                    <ul className="grid md:grid-cols-2 gap-4">
+                    <ul className="grid md:grid-cols-2 text-white gap-4">
                         {skill.keyPoints?.map((point, index) => (
                             <li
                                 key={index}
-                                className="flex items-start gap-3 text-white/70 font-Poppins"
+                                className="flex items-start gap-3 text-white font-Poppins"
                             >
                                 <MdCheckCircle className="text-green-400 text-xl flex-shrink-0 mt-1" />
                                 <span>{point}</span>
