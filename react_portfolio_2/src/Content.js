@@ -260,9 +260,9 @@ export const content = {
     subtitle: "GET IN TOUCH",
     social_media: [
       {
-        text: "ashishlamkade79@gmail.com",
+        text: "aashisbk.av@gmail.com",
         icon: GrMail,
-        link: "mailto:ashishlamkade79@gmail.com",
+        link: "mailto:aashisbk.av@gmail.com",
       },
       {
         text: "+91 9802347095",
