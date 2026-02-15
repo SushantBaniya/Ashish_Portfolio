@@ -256,7 +256,7 @@ export const content = {
     btnText: "Hire Me",
   },
   Contact: {
-    title: "Contect Me",
+    title: "Contact Me",
     subtitle: "GET IN TOUCH",
     social_media: [
       {
@@ -265,9 +265,9 @@ export const content = {
         link: "mailto:aashisbk.av@gmail.com",
       },
       {
-        text: "+91 9802347095",
+        text: "+977 9802347095",
         icon: MdCall,
-        link: "https://wa.me/919802347095",
+        link: "https://wa.me/9779802347095",
       },
       {
         text: "ashish.lamkade",
@@ -277,6 +277,6 @@ export const content = {
     ],
   },
   Footer: {
-    text: "Sushantprojects@all rights reserved 2025",
+    text: "Sushhprojects@all rights reserved 2025",
   },
 };
