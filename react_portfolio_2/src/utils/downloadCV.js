@@ -2,7 +2,7 @@ export function downloadCV() {
     const cvText = [
         "AVL Technician CV",
         "Name: Ashish B.K.",
-        "Role: Audio • Video • Lighting Technician",
+        "Role: • Video • Lighting Technician",
         "Summary: Reliable AVL tech with 8+ years delivering FOH/Monitors, IMAG, lighting cues, RF coordination, and Dante routing.",
         "Note: Replace this generated file with your actual PDF in /public and update the link if needed.",
     ].join("\n\n");
