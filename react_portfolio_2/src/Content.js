@@ -66,7 +66,7 @@ export const content = {
     hero_content: [
       {
         count: "8+",
-        text: "Years engineering live audio, video, and lighting",
+        text: "Years engineering live video, and lighting",
       },
       {
         count: "500+",
@@ -79,14 +79,14 @@ export const content = {
     subtitle: "MY TOP SKILLS",
     skills_content: [
       {
-        name: "Audio Engineering & Mixing",
+        name: " Engineering & Mixing",
         para: "FOH/monitor mixes, gain structure, FX, stage patch",
         logo: MdGraphicEq,
-        description: "I specialize in delivering crystal-clear audio experiences for live events, conferences, and concerts. With expertise in front-of-house and monitor mixing, I ensure every performer and audience member hears exactly what they need. From setting optimal gain structures to crafting immersive effects chains, I bring technical precision and artistic sensibility to every mix.",
+        description: "I specialize in delivering crystal-clear Video experiences for live events, conferences, and concerts. With expertise in front-of-house and monitor mixing, I ensure every performer and audience member hears exactly what they need. From setting optimal gain structures to crafting immersive effects chains, I bring technical precision and artistic sensibility to every mix.",
         keyPoints: [
           "Front-of-house (FOH) mixing for audiences up to 10,000+",
           "Monitor mixing ensuring artist comfort and performance",
-          "Gain staging and signal optimization for clean audio",
+          "Gain staging and signal optimization for clean Video",
           "Creative use of reverbs, delays, and dynamic processing",
           "Stage patching and input list management",
           "Multi-track recording during live performances"
@@ -127,16 +127,16 @@ export const content = {
         yearsExp: "3+"
       },
       {
-        name: "Digital Audio Networking",
+        name: "Digital Video Networking",
         para: "Dante routing, VLAN prep, redundant paths",
         logo: MdSettingsEthernet,
-        description: "I architect and deploy robust digital audio networks that form the backbone of modern live productions. With deep knowledge of Dante, AVB, and other audio-over-IP protocols, I ensure reliable, low-latency audio distribution across complex venue infrastructures. My network designs prioritize redundancy and scalability.",
+        description: "I architect and deploy robust digital Video networks that form the backbone of modern live productions. With deep knowledge of Dante, AVB, and other Video-over-IP protocols, I ensure reliable, low-latency Video distribution across complex venue infrastructures. My network designs prioritize redundancy and scalability.",
         keyPoints: [
           "Dante network design and implementation",
-          "VLAN configuration for audio network isolation",
+          "VLAN configuration for Video network isolation",
           "Redundant network path design for failover",
           "Network switch configuration and QoS settings",
-          "Multi-venue audio distribution systems",
+          "Multi-venue Video distribution systems",
           "Troubleshooting network latency and packet loss"
         ],
         tools: ["Dante Controller", "Dante Virtual Soundcard", "Cisco/Netgear Switches", "Wireshark", "AVB"],
@@ -171,7 +171,7 @@ export const content = {
           "Preventive maintenance and system checks",
           "Documentation of issues for future prevention"
         ],
-        tools: ["Multimeters", "Cable Testers", "Audio Analyzers", "Network Testers", "Tool Kit", "Spare Parts Inventory"],
+        tools: ["Multimeters", "Cable Testers", "Video Analyzers", "Network Testers", "Tool Kit", "Spare Parts Inventory"],
         yearsExp: "4+"
       },
     ],
@@ -182,7 +182,7 @@ export const content = {
     subtitle: "WHAT I OFFER",
     service_content: [
       {
-        title: "Live Audio Support",
+        title: "Live Video Support",
         para: "FOH/monitor mixes, stage patching, RF coordination, and mic selection for conferences, worship, and concerts.",
         logo: services_logo1,
       },
@@ -241,7 +241,7 @@ export const content = {
       },
       {
         review:
-          "“Dependable AVL tech—great with volunteers and fast at troubleshooting lighting and audio issues.”",
+          "“Dependable AVL tech—great with volunteers and fast at troubleshooting lighting and Video issues.”",
         img: avatar4,
         name: "ROBBIN",
       },
