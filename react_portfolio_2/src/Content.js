@@ -79,7 +79,7 @@ export const content = {
     subtitle: "MY TOP SKILLS",
     skills_content: [
       {
-        name: " Engineering & Mixing",
+        name: "Mixing",
         para: "FOH/monitor mixes, gain structure, FX, stage patch",
         logo: MdGraphicEq,
         description: "I specialize in delivering crystal-clear Video experiences for live events, conferences, and concerts. With expertise in front-of-house and monitor mixing, I ensure every performer and audience member hears exactly what they need. From setting optimal gain structures to crafting immersive effects chains, I bring technical precision and artistic sensibility to every mix.",

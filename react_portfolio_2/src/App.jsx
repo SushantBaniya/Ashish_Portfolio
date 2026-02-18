@@ -30,7 +30,7 @@ const HomePage = () => {
       <Contact />
       <footer className="p-3 text-center">
         <h6 className="mb-3">Ashish B.K.</h6>
-        <p>Sushantprojects@all rights reserved 2025</p>
+        <p>Susshprojects@all rights reserved 2025</p>
       </footer>
     </>
   );
