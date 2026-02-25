@@ -277,6 +277,6 @@ export const content = {
     ],
   },
   Footer: {
-    text: "Sushhprojects@all rights reserved 2025",
+    text: "projects@all rights reserved 2025",
   },
 };
