@@ -160,7 +160,7 @@ export const content = {
       },
       {
         name: "Event Systems Troubleshooting",
-        para: "Signal flow, cabling, rapid diagnostics under show pressure",
+        para: "Signal flow, cabling, rapid diagnostics under pressure",
         logo: MdBuild,
         description: "When things go wrong during a live event, I'm the person who stays calm and fixes it fast. Years of hands-on experience have honed my ability to trace signal paths, diagnose equipment failures, and implement solutions—all while the show continues. I believe in proactive system checks, but I'm equally prepared for the unexpected.",
         keyPoints: [
@@ -212,7 +212,7 @@ export const content = {
         image: project2,
       },
       {
-        title: "House of Worship Upgrade",
+        title: "Convocations",
         image: project3,
       },
     ],
