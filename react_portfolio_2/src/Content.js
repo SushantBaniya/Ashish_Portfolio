@@ -49,7 +49,7 @@ export const content = {
       icon: RiServiceLine,
     },
     {
-      link: "#projects",
+      link: "#gallery",
       icon: RiProjectorLine,
     },
     {
@@ -199,20 +199,31 @@ export const content = {
     ],
   },
   Projects: {
-    title: "Projects",
-    subtitle: "MY CREATION",
-    image: person_project,
+    title: "Event Gallery",
+    subtitle: "MY WORK IN ACTION",
     project_content: [
       {
-        title: "Corporate Summit AV Package",
+        title: "Awards Shows & Galas",
         image: project1,
       },
       {
-        title: "Hybrid Townhall Livestream",
+        title: "Corporate Conferences",
         image: project2,
       },
       {
-        title: "Convocations",
+        title: "Concerts & Live Sound",
+        image: project3,
+      },
+      {
+        title: "Broadcast & Virtual Events",
+        image: project1,
+      },
+      {
+        title: "Theatrical Stage Design",
+        image: project2,
+      },
+      {
+        title: "Exhibitions & Tradeshows",
         image: project3,
       },
     ],

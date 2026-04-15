@@ -1,58 +1,50 @@
 import { content } from "../Content";
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
-
-import { Pagination } from "swiper";
 
 const Projects = () => {
   const { Projects } = content;
   return (
-    <section className="bg-bg_light_primary" id="projects">
-      <div className="md:container px-5 pt-14 min-h-screen flex flex-col justify-between">
-        <div>
+    <section className="bg-bg_light_primary" id="gallery">
+      <div className="md:container px-5 pt-14 pb-20 min-h-screen flex flex-col">
+        <div className="mb-10 text-center">
           <h2 className="title" data-aos="fade-down">
             {Projects.title}
           </h2>
           <h4 className="subtitle" data-aos="fade-down">
             {Projects.subtitle}
           </h4>
-          <br />
         </div>
-        <div className="flex items-center lg:flex-row flex-col-reverse gap-5">
-          <img
-            src={Projects.image}
-            alt="..."
-            data-aos="fade-right"
-            className="max-w-[45vw] min-w-[22rem]"
-          />
-          <Swiper
-            pagination={{
-              clickable: true,
-            }}
-            data-aos="fade-left"
-            spaceBetween={20}
-            modules={[Pagination]}
-            className="rounded-3xl pb-16 max-w-md drop-shadow-primary self-start"
-          >
-            {Projects.project_content.map((content, i) => (
-              <SwiperSlide
-                key={i}
-                className="bg-slate-800 rounded-3xl p-5 border-b-8 border-slate-700 h-fit"
-              >
-                <img src={content.image} alt="..." />
-                <div className="flex flex-col gap-1 mt-2">
-                  <h5 className="font-bold font-Poppins">{content.title}</h5>
-                  <button className="font-bold text-gray self-end">
-                    READ MORE
-                  </button>
+        
+        {/* Gallery Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {Projects.project_content.map((content, i) => (
+            <div
+              key={i}
+              data-aos="fade-up"
+              data-aos-delay={i * 200}
+              className="group relative overflow-hidden rounded-2xl aspect-square shadow-lg border border-gray/20 cursor-pointer"
+            >
+              {/* Background Image */}
+              <img
+                src={content.image}
+                alt={content.title}
+                className="w-full h-full object-cover transition-transform duration-700 ease-in-out group-hover:scale-110"
+              />
+              
+              {/* Overlay Overlay */}
+              <div className="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-900/40 to-transparent flex items-end opacity-90 group-hover:opacity-100 transition-opacity duration-500">
+                <div className="p-6 w-full transform translate-y-2 group-hover:translate-y-0 transition-transform duration-500">
+                  <h5 className="text-2xl font-bold font-Poppins text-text_light mb-2">{content.title}</h5>
+                  <div className="w-12 h-1 bg-dark_primary rounded-full transition-all duration-500 group-hover:w-full"></div>
                 </div>
-              </SwiperSlide>
-            ))}
-          </Swiper>
+              </div>
+            </div>
+          ))}
+        </div>
+        
+        <div className="mt-12 text-center" data-aos="fade-up">
+           <button className="btn bg-dark_primary text-slate-900 font-bold border-none hover:bg-dark_primary/80 transition-colors">
+              VIEW FULL GALLERY
+           </button>
         </div>
       </div>
     </section>
