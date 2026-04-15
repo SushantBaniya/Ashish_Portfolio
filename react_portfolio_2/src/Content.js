@@ -203,28 +203,40 @@ export const content = {
     subtitle: "MY WORK IN ACTION",
     project_content: [
       {
+        id: "awards-shows",
         title: "Awards Shows & Galas",
         image: project1,
+        description: "A glamorous evening requiring precise AV coordination, intricate lighting design, and live multi-camera switching to ensure every award presentation was flawlessly broadcasted to live screens.",
       },
       {
+        id: "corporate-conferences",
         title: "Corporate Conferences",
         image: project2,
+        description: "Full-scale corporate event featuring wide ultra-HD LED video walls, crystal clear presenter audio, and seamless transition between hundreds of dynamic presentation slides and speaker transitions.",
       },
       {
+        id: "concerts-live-sound",
         title: "Concerts & Live Sound",
         image: project3,
+        description: "High-energy live music event requiring complex FOH mixing, monitor engineering, and synchronized timecoded light sweeps to give attendees an immersive concert experience.",
       },
       {
+        id: "broadcast-virtual",
         title: "Broadcast & Virtual Events",
         image: project1,
+        description: "A hybrid digital and in-person event utilizing multiple camera feeds, distinct streaming and house audio mixes, and interactive virtual elements for thousands of concurrent remote attendees.",
       },
       {
+        id: "theatrical-stage",
         title: "Theatrical Stage Design",
         image: project2,
+        description: "Creative stage engineering utilizing custom-built set pieces, dramatic theatrical lighting cues, and atmospherics to bring a theatrical performance to life from load-in to strike.",
       },
       {
+        id: "exhibitions-tradeshows",
         title: "Exhibitions & Tradeshows",
         image: project3,
+        description: "An expansive multi-day trade show setup encompassing multiple booth AV installations, distributed public address systems, and continuous rapid technical support across a massive venue.",
       },
     ],
   },

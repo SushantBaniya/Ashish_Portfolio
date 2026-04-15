@@ -8,6 +8,7 @@ import Testimonials from "./components/Testimonials";
 import Hireme from "./components/Hireme";
 import Contact from "./components/Contact";
 import SkillDetail from "./pages/SkillDetail";
+import EventDetail from "./pages/EventDetail";
 import { useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // Animation package
@@ -49,6 +50,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/skill/:skillId" element={<SkillDetail />} />
+        <Route path="/event/:eventId" element={<EventDetail />} />
       </Routes>
     </Router>
   );

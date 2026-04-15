@@ -1,4 +1,5 @@
 import { content } from "../Content";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   const { Projects } = content;
@@ -17,11 +18,12 @@ const Projects = () => {
         {/* Gallery Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {Projects.project_content.map((content, i) => (
-            <div
+            <Link
+              to={`/event/${content.id}`}
               key={i}
               data-aos="fade-up"
               data-aos-delay={i * 200}
-              className="group relative overflow-hidden rounded-2xl aspect-square shadow-lg border border-gray/20 cursor-pointer"
+              className="group relative overflow-hidden rounded-2xl aspect-square shadow-lg border border-gray/20 cursor-pointer block"
             >
               {/* Background Image */}
               <img
@@ -37,7 +39,7 @@ const Projects = () => {
                   <div className="w-12 h-1 bg-dark_primary rounded-full transition-all duration-500 group-hover:w-full"></div>
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
         
