@@ -14,10 +14,10 @@ const SkillDetail = () => {
 
     if (!skill) {
         return (
-            <div className="min-h-screen bg-dark_primary flex items-center justify-center">
-                <div className="text-center text-white">
+            <div className="min-h-screen bg-bg_light_primary flex items-center justify-center">
+                <div className="text-center text-text_light">
                     <h1 className="text-4xl font-bold mb-4">Skill Not Found</h1>
-                    <Link to="/" className="btn bg-white text-dark_primary">
+                    <Link to="/" className="btn bg-dark_primary text-slate-900 font-bold">    
                         <MdArrowBack className="inline mr-2" />
                         Back to Home
                     </Link>
@@ -27,7 +27,7 @@ const SkillDetail = () => {
     }
 
     return (
-        <div className="min-h-screen bg-gradient-to-br from-dark_primary via-slate-800 to-dark_primary">
+        <div className="min-h-screen bg-gradient-to-br from-bg_light_primary via-slate-900 to-bg_light_primary">
             {/* Animated background elements */}
             <div className="absolute inset-0 overflow-hidden pointer-events-none">
                 <div className="absolute top-20 left-10 w-72 h-72 bg-dark_variant/20 rounded-full blur-3xl animate-pulse"></div>
@@ -137,7 +137,7 @@ const SkillDetail = () => {
                 <div className="text-center">
                     <Link
                         to="/#contact"
-                        className="inline-flex items-center gap-2 btn bg-white text-dark_primary hover:bg-white/90 transition-colors"
+                        className="inline-flex items-center gap-2 btn bg-dark_primary text-slate-900 font-bold hover:bg-dark_primary/90 transition-colors"
                     >
                         Let's Work Together
                     </Link>

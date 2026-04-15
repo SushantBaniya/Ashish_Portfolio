@@ -13,15 +13,16 @@ module.exports = {
     },
     extend: {
       colors: {
-        dark_primary: "#06223F",
-        bg_light_primary: "#F5F9FD",
-        gray: "#B7C5D3",
+        dark_primary: "#4ADE80", // Green accent color for contrast
+        bg_light_primary: "#0F172A", // Dark Slate
+        gray: "#94A3B8", // Slate 400
+        text_light: "#F8FAFC", // Slate 50
       },
       backgroundImage: {
-        primaryLinear: "linear-gradient(180deg, #B6CCF5 0.48%, #D5E3F1 100%)",
+        primaryLinear: "linear-gradient(180deg, #1E293B 0.48%, #0F172A 100%)",
       },
       dropShadow: {
-        primary: "-5px 35px 40px rgba(223, 229, 236, 0.9)",
+        primary: "-5px 35px 40px rgba(0, 0, 0, 0.9)",
       },
     },
   },

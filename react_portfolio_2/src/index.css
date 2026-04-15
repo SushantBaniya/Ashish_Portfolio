@@ -21,7 +21,10 @@
   h6,
   p,
   span {
-    @apply text-dark_primary;
+    @apply text-text_light;
+  }
+  body {
+    @apply bg-slate-900 text-text_light;
   }
   h1 {
     @apply font-Poppins lg:text-6xl text-3xl font-extrabold;
@@ -36,7 +39,7 @@
     @apply md:text-4xl text-3xl !leading-relaxed font-Paprika;
   }
   h6 {
-    @apply font-Paprika font-bold text-[#253D57] leading-8;
+    @apply font-Paprika font-bold text-dark_primary leading-8;
   }
 
   p {

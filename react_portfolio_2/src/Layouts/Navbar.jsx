@@ -20,9 +20,9 @@ const Navbar = () => {
   };
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-[999] bg-white/70 backdrop-blur-md shadow-sm">
+    <header className="fixed top-0 left-0 right-0 z-[999] bg-bg_light_primary/80 backdrop-blur-md shadow-sm border-b border-gray/20">
       <div className="md:container mx-auto px-5 py-3 flex items-center justify-between">
-        <a href="#home" className="font-Poppins font-bold text-lg">
+        <a href="#home" className="font-Poppins font-bold text-lg text-text_light">
           {hero?.firstName} <span className="text-dark_primary">{hero?.LastName}</span>
         </a>
 
@@ -33,7 +33,7 @@ const Navbar = () => {
               key={i}
               href={item.link}
               onClick={() => handleClick(i)}
-              className={`flex items-center gap-2 px-3 py-2 rounded-md transition-colors duration-200 hover:bg-slate-200/60 ${i === active ? "bg-dark_primary text-white" : "text-dark_primary"
+              className={`flex items-center gap-2 px-3 py-2 rounded-md transition-colors duration-200 hover:bg-white/10 ${i === active ? "bg-dark_primary text-slate-900" : "text-text_light"
                 }`}
             >
               {createElement(item.icon)}
@@ -46,7 +46,7 @@ const Navbar = () => {
         <button
           aria-label="Toggle navigation"
           onClick={() => setOpen(!open)}
-          className="md:hidden p-2 rounded-lg bg-white/80 border border-slate-200"
+          className="md:hidden p-2 rounded-lg bg-bg_light_primary/80 border border-gray/20 text-text_light"
         >
           {open ? <HiX size={22} /> : <HiMenuAlt2 size={22} />}
         </button>
@@ -54,14 +54,14 @@ const Navbar = () => {
 
       {/* Mobile menu */}
       {open && (
-        <div className="md:hidden bg-white/90 backdrop-blur-md border-t border-slate-200">
+        <div className="md:hidden bg-bg_light_primary/95 backdrop-blur-md border-t border-gray/20">
           <div className="px-5 py-3 flex flex-col">
             {nav.map((item, i) => (
               <a
                 key={i}
                 href={item.link}
                 onClick={() => handleClick(i)}
-                className={`flex items-center gap-3 px-3 py-3 rounded-md transition-colors duration-200 ${i === active ? "bg-dark_primary text-white" : "hover:bg-slate-200/60"
+                className={`flex items-center gap-3 px-3 py-3 rounded-md transition-colors duration-200 ${i === active ? "bg-dark_primary text-slate-900" : "hover:bg-white/10 text-text_light"
                   }`}
               >
                 {createElement(item.icon)}

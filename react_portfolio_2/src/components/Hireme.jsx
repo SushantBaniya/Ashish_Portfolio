@@ -35,7 +35,7 @@ const Hireme = () => {
             <p className="leading-7">{Hireme.para}</p>
             <br />
             <button
-              className="btn bg-dark_primary text-white"
+              className="btn bg-dark_primary text-slate-900 font-bold"
               onClick={() => {
                 if (window.confirm("Download CV?")) {
                   downloadCV();
