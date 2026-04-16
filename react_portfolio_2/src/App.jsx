@@ -31,7 +31,7 @@ const HomePage = () => {
       <Contact />
       <footer className="p-3 text-center">
         <h6 className="mb-3">Ashish B.K.</h6>
-        <p>Susshprojects@all rights reserved 2025</p>
+        <p>AshishBk@all rights reserved 2026</p>
       </footer>
     </>
   );

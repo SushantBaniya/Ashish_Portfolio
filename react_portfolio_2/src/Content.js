@@ -67,7 +67,7 @@ export const content = {
     image: Hero_person,
     hero_content: [
       {
-        count: "8+",
+        count: "2+",
         text: "Years engineering live video, and lighting",
       },
       {
@@ -302,6 +302,6 @@ export const content = {
     ],
   },
   Footer: {
-    text: "projects@all rights reserved 2025",
+    text: "AshishBK@all rights reserved 2026",
   },
 };
