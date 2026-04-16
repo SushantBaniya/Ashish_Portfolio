@@ -288,9 +288,9 @@ export const content = {
         link: "mailto:aashisbk.av@gmail.com",
       },
       {
-        text: "+977 9709116915",
+        text: "9709116915",
         icon: MdCall,
-        link: "https://wa.me/9779709116915",
+        link: "https://wa.me/9709116915",
       },
       {
         text: "ashish.lamkade",
