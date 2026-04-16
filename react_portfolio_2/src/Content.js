@@ -12,10 +12,12 @@ import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
 import services_logo3 from "./assets/images/Services/logo3.png";
 
-import project1 from "./assets/images/Projects/img1.png";
-import project2 from "./assets/images/Projects/img2.png";
-import project3 from "./assets/images/Projects/img3.png";
-import person_project from "./assets/images/Projects/Ashish.png";
+import project1 from "./assets/images/Projects/huc.jpg";
+import project2 from "./assets/images/Projects/orthocon.jpg";
+import project3 from "./assets/images/Projects/Radcon_2026.jpg";
+import project4 from "./assets/images/Projects/Saarc.jpg";
+import project5 from "./assets/images/Projects/urocon.jpg";
+import project6 from "./assets/images/Projects/web_trading_concern.jpg";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
 import avatar2 from "./assets/images/Testimonials/avatar2.png";
@@ -203,39 +205,39 @@ export const content = {
     subtitle: "MY WORK IN ACTION",
     project_content: [
       {
-        id: "awards-shows",
-        title: "Awards Shows & Galas",
+        id: "HUCON-2025",
+        title: "HUCON 2025",
         image: project1,
         description: "A glamorous evening requiring precise AV coordination, intricate lighting design, and live multi-camera switching to ensure every award presentation was flawlessly broadcasted to live screens.",
       },
       {
-        id: "corporate-conferences",
-        title: "Corporate Conferences",
+        id: "orthocon-2025",
+        title: "Orthocon 2025",
         image: project2,
         description: "Full-scale corporate event featuring wide ultra-HD LED video walls, crystal clear presenter audio, and seamless transition between hundreds of dynamic presentation slides and speaker transitions.",
       },
       {
-        id: "concerts-live-sound",
-        title: "Concerts & Live Sound",
+        id: "radcon-2026",
+        title: "Radcon 2026",
         image: project3,
         description: "High-energy live music event requiring complex FOH mixing, monitor engineering, and synchronized timecoded light sweeps to give attendees an immersive concert experience.",
       },
       {
-        id: "broadcast-virtual",
-        title: "Broadcast & Virtual Events",
-        image: project1,
+        id: "saarc-2025",
+        title: "SAARC Summit 2025",
+        image: project4,
         description: "A hybrid digital and in-person event utilizing multiple camera feeds, distinct streaming and house audio mixes, and interactive virtual elements for thousands of concurrent remote attendees.",
       },
       {
-        id: "theatrical-stage",
-        title: "Theatrical Stage Design",
-        image: project2,
+        id: "urocon-2025",
+        title: "Urocon 2025",
+        image: project5,
         description: "Creative stage engineering utilizing custom-built set pieces, dramatic theatrical lighting cues, and atmospherics to bring a theatrical performance to life from load-in to strike.",
       },
       {
-        id: "exhibitions-tradeshows",
-        title: "Exhibitions & Tradeshows",
-        image: project3,
+        id: "web-trading-concern-2025",
+        title: "Web Trading Concern 2025",
+        image: project6,
         description: "An expansive multi-day trade show setup encompassing multiple booth AV installations, distributed public address systems, and continuous rapid technical support across a massive venue.",
       },
     ],
