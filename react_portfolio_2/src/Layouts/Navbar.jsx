@@ -46,31 +46,30 @@ const Navbar = () => {
         <button
           aria-label="Toggle navigation"
           onClick={() => setOpen(!open)}
-          className="md:hidden p-2 rounded-lg bg-bg_light_primary/80 border border-gray/20 text-text_light"
+          className="md:hidden p-2 rounded-lg bg-white/5 border border-gray/20 text-text_light transition-colors duration-200 hover:bg-white/10 active:scale-95"
         >
           {open ? <HiX size={22} /> : <HiMenuAlt2 size={22} />}
         </button>
       </div>
 
       {/* Mobile menu */}
-      {open && (
-        <div className="md:hidden bg-bg_light_primary/95 backdrop-blur-md border-t border-gray/20">
-          <div className="px-5 py-3 flex flex-col">
-            {nav.map((item, i) => (
-              <a
-                key={i}
-                href={item.link}
-                onClick={() => handleClick(i)}
-                className={`flex items-center gap-3 px-3 py-3 rounded-md transition-colors duration-200 ${i === active ? "bg-dark_primary text-slate-900" : "hover:bg-white/10 text-text_light"
-                  }`}
-              >
-                {createElement(item.icon)}
-                <span className="font-Poppins">{getLabel(item.link)}</span>
-              </a>
-            ))}
-          </div>
+      <div className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out bg-bg_light_primary/95 backdrop-blur-md border-t border-gray/20 ${open ? "max-h-[500px] opacity-100 py-3" : "max-h-0 opacity-0 py-0"
+        }`}>
+        <div className="px-5 flex flex-col gap-1">
+          {nav.map((item, i) => (
+            <a
+              key={i}
+              href={item.link}
+              onClick={() => handleClick(i)}
+              className={`flex items-center gap-4 px-4 py-3 rounded-xl transition-all duration-200 ${i === active ? "bg-dark_primary text-slate-900 font-bold" : "hover:bg-white/10 text-text_light"
+                }`}
+            >
+              <span className="text-xl">{createElement(item.icon)}</span>
+              <span className="font-Poppins text-base">{getLabel(item.link)}</span>
+            </a>
+          ))}
         </div>
-      )}
+      </div>
     </header>
   );
 };

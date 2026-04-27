@@ -22,16 +22,16 @@ const Skills = () => {
           {skills.subtitle}
         </h4>
         <br />
-        <div className="flex flex-wrap gap-4 justify-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {skills.skills_content.map((skill, i) => (
             <Link
               to={`/skill/${getSkillSlug(skill.name)}`}
               key={i}
               data-aos="fade-up"
-              data-aos-delay={i * 400}
+              data-aos-delay={i * 200}
               className="bg-slate-800 sm:cursor-pointer
-               relative group w-full flex items-center
-                gap-5 p-5 max-w-sm rounded-[1rem] border border-gray/20 hover:border-dark_primary hover:shadow-lg transition-all duration-300"
+               relative group flex items-center
+                gap-5 p-5 rounded-[1rem] border border-gray/20 hover:border-dark_primary hover:shadow-lg transition-all duration-300"
             >
               <div>
                 {typeof skill.logo === "string" ? (

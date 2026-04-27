@@ -41,7 +41,7 @@ const Contact = () => {
           {Contact.subtitle}
         </h4>
         <br />
-        <div className="flex gap-10 md:flex-row flex-col">
+        <div className="flex gap-10 md:flex-row flex-col-reverse">
           <form
             ref={form}
             onSubmit={sendEmail}
@@ -83,7 +83,7 @@ const Contact = () => {
                 key={i}
                 data-aos="fade-down"
                 data-aos-delay={i * 430}
-                className="flex items-center gap-2"
+                className="flex items-center gap-3 bg-white/5 p-4 rounded-lg border border-gray/10 hover:border-dark_primary/50 transition-colors"
               >
                 <h4 className="text-dark_primary">{createElement(content.icon)}</h4>   
                 <a className="font-Poppins" href={content.link} target="_blank">
