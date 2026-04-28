@@ -81,22 +81,6 @@ export const content = {
     subtitle: "MY TOP SKILLS",
     skills_content: [
       {
-        name: "Mixing",
-        para: "FOH/monitor mixes, gain structure, FX, stage patch",
-        logo: MdGraphicEq,
-        description: "I specialize in delivering crystal-clear Video experiences for live events, conferences, and concerts. With expertise in front-of-house and monitor mixing, I ensure every performer and audience member hears exactly what they need. From setting optimal gain structures to crafting immersive effects chains, I bring technical precision and artistic sensibility to every mix.",
-        keyPoints: [
-          "Front-of-house (FOH) mixing for audiences up to 10,000+",
-          "Monitor mixing ensuring artist comfort and performance",
-          "Gain staging and signal optimization for clean Video",
-          "Creative use of reverbs, delays, and dynamic processing",
-          "Stage patching and input list management",
-          "Multi-track recording during live performances"
-        ],
-        tools: ["Yamaha CL/QL Series", "DiGiCo SD", "Allen & Heath dLive", "Waves Plugins", "Shure Wireless"],
-        yearsExp: "4+"
-      },
-      {
         name: "Video Switching & IMAG",
         para: "Roland/Blackmagic ops, SDI/NDI workflows, latency checks",
         logo: MdSwitchVideo,
