@@ -129,22 +129,6 @@ export const content = {
         yearsExp: "3+"
       },
       {
-        name: "RF Coordination",
-        para: "Wireless mics/IEMs, frequency planning, Intermod mitigation",
-        logo: MdWifiTethering,
-        description: "I manage complex wireless ecosystems ensuring interference-free operation of microphones, in-ear monitors, and communication systems. In today's congested RF environment, proper frequency coordination is critical. I use professional scanning tools and coordination software to create clean frequency plans for events of any scale.",
-        keyPoints: [
-          "Wireless microphone and IEM system deployment",
-          "RF spectrum scanning and analysis",
-          "Frequency coordination for multi-system events",
-          "Intermodulation prediction and avoidance",
-          "Antenna distribution and RF zone planning",
-          "Compliance with local RF regulations"
-        ],
-        tools: ["Shure Wireless Workbench", "Sennheiser WSM", "RF Explorer", "IAS Intermod Analysis", "Lectrosonics"],
-        yearsExp: "3+"
-      },
-      {
         name: "Event Systems Troubleshooting",
         para: "Signal flow, cabling, rapid diagnostics under pressure",
         logo: MdBuild,
