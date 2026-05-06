@@ -60,7 +60,7 @@ export const content = {
     },
   ],
   hero: {
-    title: "AVL Technician",
+    title: "AVL Operator",
     firstName: "ASHISH",
     LastName: "B.K.",
     btnText: "Hire Me",
