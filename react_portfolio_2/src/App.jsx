@@ -10,7 +10,7 @@ import Contact from "./components/Contact";
 import SkillDetail from "./pages/SkillDetail";
 import EventDetail from "./pages/EventDetail";
 import { useEffect } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 // Animation package
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -37,16 +37,29 @@ const HomePage = () => {
   );
 };
 
+const ScrollToTopAndAosRefresh = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    Aos.refresh();
+  }, [location.pathname]);
+
+  return null;
+};
+
 const App = () => {
   useEffect(() => {
     Aos.init({
       duration: 1800,
       offset: 100,
-      disable: "mobile",
+      // Removed disable: "mobile" to ensure AOS manages elements on mobile properly
     });
   }, []);
+  
   return (
     <Router>
+      <ScrollToTopAndAosRefresh />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/skill/:skillId" element={<SkillDetail />} />
