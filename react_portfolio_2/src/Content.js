@@ -67,7 +67,7 @@ export const content = {
     image: Hero_person,
     hero_content: [
       {
-        count: "2+",
+        count: "3+",
         text: "Years engineering live video, and lighting",
       },
       {
