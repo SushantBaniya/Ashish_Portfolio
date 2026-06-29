@@ -19,11 +19,6 @@ import project4 from "./assets/images/Projects/Saarc.jpg";
 import project5 from "./assets/images/Projects/urocon.jpg";
 import project6 from "./assets/images/Projects/web_trading_concern.jpg";
 
-import avatar1 from "./assets/images/Testimonials/avatar1.png";
-import avatar2 from "./assets/images/Testimonials/avatar2.png";
-import avatar3 from "./assets/images/Testimonials/avatar3.png";
-import avatar4 from "./assets/images/Testimonials/avatar4.png";
-
 import Hireme_person from "./assets/images/Hireme/Ashish2.png";
 
 
@@ -207,36 +202,6 @@ export const content = {
         title: "Web Trading Concern 2025",
         image: project6,
         description: "An expansive multi-day trade show setup encompassing multiple booth AV installations, distributed public address systems, and continuous rapid technical support across a massive venue.",
-      },
-    ],
-  },
-  Testimonials: {
-    title: "Testimonials",
-    subtitle: "MY CLIENT REVIEWS",
-    testimonials_content: [
-      {
-        review:
-          "“Ashish kept comms clear and solved RF hits quickly, giving our speakers confidence on stage.”",
-        img: avatar1,
-        name: "JOHN DOE",
-      },
-      {
-        review:
-          "“Smooth cueing on video and lighting—our townhall stream was flawless for both in-room and remote.”",
-        img: avatar2,
-        name: "Tom Alex",
-      },
-      {
-        review:
-          "“He walks in with a plan, keeps calm under pressure, and leaves the rig documented for the next show.”",
-        img: avatar3,
-        name: "Johnny",
-      },
-      {
-        review:
-          "“Dependable AVL tech—great with volunteers and fast at troubleshooting lighting and Video issues.”",
-        img: avatar4,
-        name: "ROBBIN",
       },
     ],
   },
